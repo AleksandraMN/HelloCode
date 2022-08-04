@@ -18,7 +18,7 @@ Console.WriteLine("+");
 Console.SetCursorPosition(xc, yc);
 Console.WriteLine("+");
 
-int x = xa, y = xb;
+int x = xa, y = ya;
 int count = 0;
 while (count < 10000)
 { 
@@ -41,4 +41,8 @@ while (count < 10000)
 	Console.SetCursorPosition(x, y);
 	Console.WriteLine("+");
 	count++;
+
 }
+
+Console.SetCursorPosition(0, yc+1);
+
